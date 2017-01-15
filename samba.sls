@@ -1,3 +1,0 @@
-samba:
-  pkg:
-    - installed

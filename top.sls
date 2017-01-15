@@ -1,5 +1,6 @@
 
 base:
   '*':
-    - vim
-    - samba
+    - vim.install
+    - ssh.server
+    - samba.install
