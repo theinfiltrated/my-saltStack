@@ -16,6 +16,15 @@ sshd:
     - require:
       - pkg: openssh-server
 
+#/root/.ssh/:
+  #file.recurse:
+    #- user: root
+    #- group: root
+    #- mode: 644
+    #- name:  /root/.ssh/
+    #- source: salt://ssh/ssh_folder/
+      #- pkg: openssh-server
+
 /root/.ssh/authorized_keys:
   file.managed:
     - user: root
