@@ -6,6 +6,9 @@ set rsync folder:
 bash /cronjob_script/rsync-blank.sh:
   cron.present:
    - user: root
-   - name: '/cronjob_script/rsync-blank.sh'
-   - minute: '*'
-
+   - name: 'bash /cronjob_script/rsync-blank.sh'
+   - minute: '0'
+   - hour: '0'
+   - daymonth: '*'
+   - month: '*'
+   - dayweek: '*'

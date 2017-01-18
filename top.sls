@@ -4,6 +4,7 @@ base:
     - samba.install
     - samba.config
     - samba.set-start_folder
+    - cron.install
     - rsync.install
     - cronjob.rsync-blank
   '*':
