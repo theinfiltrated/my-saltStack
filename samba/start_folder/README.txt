@@ -1,2 +1,2 @@
-Questa Ã¨una cartella di passaggio.
+Questa Ã una cartella di passaggio.
 Il suo contenuto viene azzerato ogni ventiquattr'ore.
